@@ -1,0 +1,19 @@
+.u-bottom {
+  margin-bottom: 2rem;
+}
+
+.--open {
+  transform: translateX(0);
+}
+
+.--full-view {
+  min-height: calc(100vh - 8rem);
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 769px) {
+    height: calc(100vh - 12rem);
+  }
+}

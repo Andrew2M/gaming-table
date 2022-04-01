@@ -1,0 +1,22 @@
+.icon {
+  &__social-media {
+    fill: $color-white;
+    width: 3rem;
+    height: 3rem;
+    padding: 2rem 1rem;
+    &:hover {
+      fill: #bbdefb;
+      transform: scale(1.2);
+      transition: all 200ms;
+    }
+    @media screen and (min-width: 769px) {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+
+  &__ytb {
+    width: 4rem;
+    height: 4rem;
+  }
+}

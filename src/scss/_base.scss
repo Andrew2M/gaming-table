@@ -1,0 +1,52 @@
+@font-face {
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+  font-family: "Montserrat", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: $color-black;
+}
+
+.heading__primary {
+  font-size: 3.6rem;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 2rem;
+  color: $color-primary;
+  @media screen and (min-width: 769px) {
+    font-size: 4.6rem;
+  }
+}
+.heading__secondary {
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 2rem;
+  color: $color-primary;
+}
+
+main {
+  min-height: 100vh;
+  @media screen and (min-width: 769px) {
+    margin-top: 12rem;
+  }
+}
+
+footer {
+  background-color: $color-primary-dark;
+  color: $color-white;
+}

@@ -1,0 +1,33 @@
+.feature {
+  padding: $padding-side;
+  margin: 0 auto;
+  max-width: 100rem;
+
+  @media screen and (min-width: 769px) {
+    display: flex;
+    gap: 16rem;
+  }
+
+  &__title {
+    font-size: 4rem;
+  }
+
+  &__description {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+
+  &__image {
+    width: 100%;
+
+    @media screen and (min-width: 769px) {
+      width: 36rem;
+    }
+  }
+
+  &--reverse {
+    @media screen and (min-width: 769px) {
+      order: -1;
+    }
+  }
+}
